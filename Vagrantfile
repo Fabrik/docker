@@ -25,6 +25,7 @@ Vagrant.configure(2) do |config|
 
   # https://github.com/dduportal/boot2docker-vagrant-box
   config.vm.box = "dduportal/boot2docker"
+  config.vm.box_version = "1.7"
 
   config.vm.synced_folder "./", "/src"
 
